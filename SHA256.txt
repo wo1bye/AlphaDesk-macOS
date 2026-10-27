@@ -1,1 +1,2 @@
 4577426bc7cb3f1aa67ded6dbb1eeabb7ec9f8c034fe395ff2eeeb18af8d41da  AlphaDesk-1.0.0-macOS-arm64.zip
+4560238686370e5251ca77e02f224a20bba396e92ec2208160ad0c3a81859fb8  AlphaDesk-1.0.0-macOS-intel-x86_64.zip

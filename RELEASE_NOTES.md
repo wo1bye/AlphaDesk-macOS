@@ -1,6 +1,6 @@
 # AlphaDesk 1.0.0
 
-首个公开的编译版本，面向 Apple Silicon Mac / macOS 14+。
+首个公开的编译版本，面向 Apple Silicon 和 Intel Mac / macOS 14+。
 
 ## 亮点
 
@@ -12,9 +12,14 @@
 - 组合、AI 研判、云同步和菜单栏小窗；
 - 中文 / English / 繁體中文界面。
 
+## 下载
+
+- Apple Silicon：`AlphaDesk-1.0.0-macOS-arm64.zip`
+- Intel：`AlphaDesk-1.0.0-macOS-intel-x86_64.zip`
+
 ## 安装
 
-下载 ZIP，解压后打开 `AlphaDesk.app`。首次启动如被 Gatekeeper 拦截，请右键打开或执行：
+下载对应 ZIP，解压后打开 `AlphaDesk.app`。首次启动如被 Gatekeeper 拦截，请右键打开或执行：
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/AlphaDesk.app

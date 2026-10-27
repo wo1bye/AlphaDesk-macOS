@@ -6,9 +6,17 @@ AlphaDesk 是一款原生 macOS 股票研究、盯盘与模拟交易应用。它
 
 ## 下载安装
 
-**⬇️ [下载 AlphaDesk 1.0.0 for macOS](https://github.com/wo1bye/AlphaDesk-macOS/releases/latest)**
+### Apple Silicon（M1/M2/M3/M4）
 
-1. 下载 `AlphaDesk-1.0.0-macOS-arm64.zip`；
+**⬇️ [下载 Apple Silicon 版](https://github.com/wo1bye/AlphaDesk-macOS/releases/download/v1.0.0/AlphaDesk-1.0.0-macOS-arm64.zip)**
+
+### Intel（x86_64）
+
+**⬇️ [下载 Intel 版](https://github.com/wo1bye/AlphaDesk-macOS/releases/download/v1.0.0/AlphaDesk-1.0.0-macOS-intel-x86_64.zip)**
+
+安装步骤：
+
+1. 根据 Mac 芯片下载对应 ZIP；
 2. 解压后把 `AlphaDesk.app` 拖入「应用程序」；
 3. 首次打开如被 Gatekeeper 拦截，右键点击 App →「打开」，或在终端执行：
 
@@ -16,7 +24,7 @@ AlphaDesk 是一款原生 macOS 股票研究、盯盘与模拟交易应用。它
 xattr -dr com.apple.quarantine /Applications/AlphaDesk.app
 ```
 
-要求：Apple Silicon Mac，macOS 14 或更高版本。
+要求：Apple Silicon 或 Intel Mac，macOS 14 或更高版本。Intel 版在 Apple Silicon Mac 上需要 Rosetta 2。
 
 ## 功能
 
